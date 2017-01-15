@@ -2,5 +2,13 @@
 
 }
 .row {
-    
+    white-space: nowrap;
+    padding: 5px 0;
+}
+.row > * {
+    display: inline-block;
+}
+.row > div {
+    text-align: center;
+    margin: 5px;
 }
