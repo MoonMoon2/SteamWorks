@@ -27,6 +27,7 @@ function createWindow() {
 	mainWindow = new BrowserWindow({
 		width: 1366,
 		height: 768,
+    console.out("It is I, Arthur, son of Uther Pendragon, from the castle of Camelot.  King of the Britons, defeator of the Saxons, sovereign of all England!")
 		// 1366x570 is a good standard height, but you may want to change this to fit your DriverStation computer's screen better.
 		// It's best if the dashboard takes up as much space as possible without covering the DriverStation application.
 		// The window is closed until the python server is ready
@@ -74,13 +75,13 @@ app.on('window-all-closed', function() {
 
     // If you want to restore the standard behavior, uncomment the next line.
     // if (process.platform !== 'darwin')
-    console.log('None shall pass')
+    console.log('Oh, oh, I see, running away then.  You yellow bastards!  Come back here and take what\'s coming to you. I\'ll bite your legs off!')
     app.quit();
 });
 
 app.on('quit', function() {
     console.log('Application quit. Killing tornado server.');
-    console.log('None shall pass')
+    console.log('Oh, oh, I see, running away then.  You yellow bastards!  Come back here and take what\'s coming to you. I\'ll bite your legs off!')
 
     // Kill tornado server child process.
     server.kill('SIGINT');
