@@ -1,0 +1,21 @@
+{
+  "name": "1418AutoUI",
+  "version": "v0.0.1",
+  "description": "Dashboard for Team 1418's robot UI. Experimental Electron environment.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonMoon2/SteamWorks"
+  },
+  "author": "1418AutoUI",
+  "bugs": {
+    "url": "https://github.com/MoonMoon2/SteamWorks/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  }
+}
