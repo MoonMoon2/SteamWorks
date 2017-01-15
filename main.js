@@ -74,12 +74,13 @@ app.on('window-all-closed', function() {
 
     // If you want to restore the standard behavior, uncomment the next line.
     // if (process.platform !== 'darwin')
-
+    console.log('None shall pass')
     app.quit();
 });
 
 app.on('quit', function() {
     console.log('Application quit. Killing tornado server.');
+    console.log('None shall pass')
 
     // Kill tornado server child process.
     server.kill('SIGINT');

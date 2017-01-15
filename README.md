@@ -9,8 +9,8 @@
       shalt be the Python thou shalt have, and the number of the Python
       shalt be three.  Python four shalt thou not have, nor either have thou two,
       excepting that thou then update to three.  Five is right out.  Once
-      the number three, being the third number, be had, then send thou
-      thy UI to thou robot, who being naughty in my sight, shall run it.'")**
+      the number three, being the third number, be had, then connect thou
+      thy UI to thou robot, who, being networked to thy UI, shall follow it.'")**
 * `pynetworktables2js`
 
         pip3 install pynetworktables2js
