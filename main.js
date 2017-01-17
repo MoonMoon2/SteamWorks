@@ -27,7 +27,6 @@ function createWindow() {
 	mainWindow = new BrowserWindow({
 		width: 1366,
 		height: 768,
-    console.out("It is I, Arthur, son of Uther Pendragon, from the castle of Camelot.  King of the Britons, defeator of the Saxons, sovereign of all England!")
 		// 1366x570 is a good standard height, but you may want to change this to fit your DriverStation computer's screen better.
 		// It's best if the dashboard takes up as much space as possible without covering the DriverStation application.
 		// The window is closed until the python server is ready
